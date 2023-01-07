@@ -1,0 +1,53 @@
+.header {
+    height: 120px;
+    width: 100%;
+    background-color: var(--color-red);
+    position: relative;
+}
+
+.header_img {
+    max-width: 350px;
+    margin-left: 10px;
+}
+
+.header_black {
+    position: absolute;
+    bottom: 0;
+    left:  0;
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+
+.header_circle {
+    position: absolute;
+    width: 70px;
+    aspect-ratio: 1;
+    background-color: black;
+    border-radius: 50%;
+    bottom: 0px;
+    right: 10px;
+    transform: translateX(-50%);
+}
+.header_circle-int {
+    position: absolute;
+    width: 50px;
+    aspect-ratio: 1;
+    background-color: black;
+    border: 8px solid white;
+    border-radius: 50%;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.header_logout {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 300ms color ease;
+}
+
+.header_logout:hover {
+    color: red;
+}
